@@ -69,7 +69,7 @@ const NavigationBar = () => {
                 </Dropdown.Menu>
               </Dropdown>
             </Nav>
-        </Navbar>
+        </Navbar>   
     );
 };
 
