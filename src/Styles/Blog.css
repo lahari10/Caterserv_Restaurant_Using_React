@@ -1,0 +1,18 @@
+.blog-list .post-preview {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-list .post-preview h2 {
+    color: #333;
+}
+
+.blog-list .post-preview p {
+    color: #666;
+}
+
+.blog-post {
+    padding: 20px;
+    background: #f4f4f4;
+}

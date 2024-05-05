@@ -1,0 +1,30 @@
+.latest-events {
+    padding: 40px 0;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.category-btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.category-btn.active {
+    /* Highlight the active category */
+    background-color: #eee; /* Example: a subtle background for active button */
+    font-weight: bold;
+}
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

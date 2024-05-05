@@ -1,0 +1,21 @@
+.services-section {
+    background: #f7f7f7; /* Light background for the entire services section */
+    padding: 40px 0; /* Top and bottom padding for the section */
+   
+}
+
+.services-section::after {
+    content: "";
+    display: block;
+    height: 50px; /* Adjust the height for the space below the services section */
+}
+
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    justify-content: center; /* Center the services on the page */
+    max-width: 1200px; /* Maximum width of the container */
+    margin: auto; /* Center the container */
+}
+

@@ -1,0 +1,16 @@
+.event {
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    margin-top: '70px'
+}
+
+.event-image {
+    display: flex;
+    padding: 40px;
+}
+
+.event-info {
+    display: flex;
+    padding: 40px;
+}

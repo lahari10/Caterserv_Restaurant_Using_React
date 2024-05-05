@@ -1,0 +1,79 @@
+/* First, import the Lato font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+
+/* Navbar Custom Styling */
+body .navbar {
+    background-color: #deb779; /* updated lighter beige background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center; /* Horizontally center the navigation links */
+}
+
+
+.navbar-brand h1 {
+    font-size: 1.75rem; /* slightly larger size for brand name */
+    color: #224870; /* updated to a darker shade of blue */
+    font-weight: 700; /* bold weight */
+    align-items: center;
+    justify-content: center;
+    font-style: italic; /* standard style, removed italic */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* updated to a darker grey for better readability */
+    font-weight: 400; /* normal weight */
+    align-items: center;
+    justify-content: center;
+    font-style: italic; /* removed italic for standard links */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #0066cc; /* lighter, more vibrant blue for hover and active states */
+    align-items: center;
+    justify-content: center;
+    font-style: italic; /* removed italic on hover for uniformity */
+}
+
+.btn-primary {
+    background-color: #224870; /* darker blue matching the navbar brand */
+    color: #ffffff; /* white text */
+    border: none; /* no border */
+}
+
+.btn-primary:hover {
+    background-color: #1d3e60; /* even darker shade on hover */
+    color: #ffffff; /* maintaining white text */
+}
+
+.nav-link.active, .navbar-brand.active {
+    color: blue;  /* Change the color to blue when active */
+    font-weight: bold;  /* Optionally make the font weight bold */
+}
+
+
+/* Dropdown Menu Items Styling */
+.dropdown-item {
+    color: #555; /* standard link color */
+    font-style: italic; /* no italic by default */
+}
+
+.dropdown-item:hover {
+    color: #224870; /* hover state color matches navbar brand */
+    font-style: italic; /* removed italic on hover for dropdown items */
+}
+
+.btn.btn-primary {
+    font-style: italic; /* removed italic, adjust if necessary */
+}

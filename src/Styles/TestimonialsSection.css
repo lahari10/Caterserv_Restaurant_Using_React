@@ -1,0 +1,19 @@
+.testimonials-section {
+    padding: 40px 0;
+    background-color: #f0f0f0; /* Light grey background */
+}
+
+.testimonial {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px; /* Adjust font size as necessary */
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    color: #333; /* Dark grey color for names */
+}

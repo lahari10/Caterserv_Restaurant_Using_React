@@ -1,0 +1,25 @@
+/* StatsSection.css */
+.stats-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for the boxes */
+    width: 30%; /* Ensuring all items are equally wide */
+    box-shadow: 0 4px 8px rgba(235, 165, 26, 0.1); /* Adding a subtle shadow for depth */
+    transition: transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.stat-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the box on hover */
+}
+
+.stat-item p {
+    margin-top: 10px;
+    color: inherit; /* Inherits color from the stat-item */
+    font-size: 18px;
+}

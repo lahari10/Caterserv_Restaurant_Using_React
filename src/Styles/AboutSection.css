@@ -1,0 +1,45 @@
+.about-section {
+    display: flex;
+    align-items: center; /* Center-align the items vertically */
+    justify-content: center; /* Center-align horizontally, if needed */
+    padding: 20px; /* Add padding around the section */
+    background: #f9f9f9; /* Optional: background color */
+    justify-content: flex-start;
+  
+}
+
+.about-section::after {
+    content: "";
+    display: block;
+    height: 50px; /* Adjust the height for the space below the about section */
+}
+
+
+.about-image {
+    width: 400px; /* Or fixed width like 300px */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 5px; /* Space between image and text content */
+}
+
+.content {
+    flex-grow: 1; /* Allows it to grow as needed but not more */
+    flex-shrink: 1; /* Allows shrinking */
+    flex-basis: auto; /* Basis auto for initial starting size */
+    text-align: left; /* Aligns all text to the left */
+    
+    
+}
+
+.btn-primary {
+    background-color: white;
+    border-radius: 12px;
+
+}
+
+.btn-secondary {
+    background-color: #187550; /* Example: primary color for the button */
+    color: white; /* Text color for the button */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

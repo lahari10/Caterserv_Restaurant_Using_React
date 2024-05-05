@@ -1,0 +1,22 @@
+.service {
+    background: #FFFFFF; /* Background color for the service card */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Padding inside the service card */
+    margin: 10px; /* Margin around the service card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.service-icon {
+    width: 60px; /* Set a fixed width for the icons */
+    height: 60px; /* Set a fixed height for the icons */
+    margin-bottom: 15px; /* Space between icon and title */
+}
+
+.service-title {
+    margin-bottom: 10px; /* Space between title and description */
+}
+
+.service-description {
+    margin-bottom: 15px; /* Space between description and button */
+}
+
